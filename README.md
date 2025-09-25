@@ -1,8 +1,6 @@
-# 🚀 Quickcode Submission Repository
+# 🚀 SIH Submission Repository
 
-<img src="TITLE.png" alt="Quickcode Logo" width="250px">
-
-This repository provides an **automated workflow** to manage **hackathon project submissions** using **GitHub Issues & Pull Requests**.
+This repository provides an **automated workflow** to manage **SIH hackathon project submissions** using **GitHub Issues & Pull Requests**.
 
 ## 📌 Features
 
@@ -65,29 +63,6 @@ This repository provides an **automated workflow** to manage **hackathon project
 - If it’s **late**, it will be marked `[LATE]`.
 - If the issue is marked **completed**, the PR will **automatically merge**.
 
----
-
-## 🔧 Configuration
-- **Add Labels:** Add labels `project-submission` and `late-submission`
-- **Deadline Date:** Update the `DEADLINE` in `.github/workflows/submission-validation.yml`
-- **Required Fields in `submissions.json`**:
-    ```json
-    [
-        {
-            "name": "John Doe",
-            "project_name": "Awesome App",
-            "repository_url": "https://github.com/johndoe/awesome-app",
-            "description": "This is a cool project!"
-        }
-    ]
-    ```
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please ensure your contributions adhere to standard contributing guidelines.
-Thank you for your contributions!
 
 ---
 

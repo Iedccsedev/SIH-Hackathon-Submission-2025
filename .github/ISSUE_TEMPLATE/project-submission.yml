@@ -1,5 +1,5 @@
 name: "🚀 Project Submission"
-description: "Submit your project for Quickcode"
+description: "Submit your project for SIH Internal Hackathon"
 title: "[Submission]: <Your Project Name>"
 labels: ["project-submission"]
 assignees: []
@@ -8,9 +8,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        # 🎉 Eden Submission
-        <img src="https://github.com/Inspira-Marian-IEDC/Eden-4.0-submission/blob/main/TITLE.png?raw=true" alt="Eden Logo" width="250px">
-        Thank you for participating in eden! 🚀  
+        # 🎉 SIH Submission
+        Thank you for participating in SIH! 🚀  
         Fill out the title and the details below to submit your project for review.
 
   - type: input
@@ -53,7 +52,7 @@ body:
     id: team_members
     attributes:
       label: Team Members
-      description: If this is a team project, list all members and their roles.
+      description: List all members and their roles.
       placeholder: |
         1. John Doe - Frontend Developer
         2. Jane Smith - Backend Developer
@@ -67,7 +66,7 @@ body:
       label: Code of Conduct & Submission Agreement
       description: By submitting this project, you agree to follow our rules.
       options:
-        - label: I confirm that this project is my original work and follows the Quickcode guidelines.
+        - label: I confirm that this project is my original work and follows the SIH guidelines.
           required: true
         - label: I understand my submission will be evaluated based on code quality, functionality, and innovation.
           required: true
