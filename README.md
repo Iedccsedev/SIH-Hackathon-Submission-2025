@@ -1,4 +1,4 @@
-# 🚀 SIH Submission Repository
+# 🚀 SIH Submission
 
 This repository provides an **automated workflow** to manage **SIH hackathon project submissions** using **GitHub Issues & Pull Requests**.
 
